@@ -159,10 +159,10 @@ const Footer: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-3xl font-black text-white leading-tight">
-                    TWO<sup className="text-sm text-green-400">®</sup>
+                    BANYAN<sup className="text-sm text-green-400">®</sup>
                   </div>
                   <div className="text-3xl font-black text-green-400 leading-tight">
-                    BROTHERS
+                ROOTS
                   </div>
                 </div>
               </div>
@@ -206,7 +206,7 @@ const Footer: React.FC = () => {
 
               <div className="space-y-3">
                 <div className="relative">
-                  <div className="flex rounded-2xl overflow-hidden bg-gray-800/50 border border-gray-700 focus-within:border-green-500 transition-all duration-300 backdrop-blur-sm">
+                  <div className="flex rounded-2xl overflow-cihidden bg-gray-800/50 border border-gray-700 focus-within:border-green-500 transition-all duration-300 backdrop-blur-sm">
                     <div className="flex items-center pl-4">
                       <Mail className="w-5 h-5 text-gray-500" />
                     </div>
@@ -245,7 +245,7 @@ const Footer: React.FC = () => {
             </div>
 
             {/* App Download Buttons */}
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               <h4 className="text-lg font-bold text-white">Download Our App</h4>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a href="#" className="group">
@@ -277,7 +277,7 @@ const Footer: React.FC = () => {
                   </div>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Categories Section */}
@@ -345,7 +345,7 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Company Information Section */}
-          <div className="space-y-6">
+          {/* <div className="space-y-6">
             <h3 className="text-xl font-bold text-white flex items-center space-x-3">
               <span>CONTACT</span>
               <div className="flex-1 h-px bg-gradient-to-r from-green-500/50 to-transparent"></div>
@@ -356,7 +356,7 @@ const Footer: React.FC = () => {
                   TBOF FOODS PRIVATE LIMITED
                 </h4>
                 <p className="text-gray-400 text-sm">
-                  Two Brothers Organic Farms India
+                  Banyan Roots Organic Farms India
                 </p>
                 <p className="text-gray-500 text-xs mt-1">
                   CIN: U01110PN2019PTC182942
@@ -416,7 +416,7 @@ const Footer: React.FC = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Bottom Section */}
@@ -424,7 +424,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-gray-500 text-sm">
-                © {new Date().getFullYear()} Two Brothers Organic Farms. All rights reserved.
+                © {new Date().getFullYear()} Banyan Roots Organic Farms. All rights reserved.
               </p>
             </div>
             <div className="flex items-center space-x-6">

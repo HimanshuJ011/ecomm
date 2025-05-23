@@ -1,6 +1,6 @@
 "use client";
 import Blog from "./Blog";
-import BlogSection from "./blogPost";
+// import BlogSection from "./blogPost";
 import FarmCreationsSection from "./FarmCreationsSection ";
 import FarmSection from "./FarmSection";
 import HeroSection from "./HeroSection";

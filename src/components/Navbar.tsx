@@ -44,7 +44,7 @@ export default function Navigation() {
                 </div> */}
                 <div>
                   <div className="text-xl font-bold text-green-800 leading-tight">
-                    TWO BROTHERS
+BANYAN ROOTS
                   </div>
                   <div className="text-xs text-green-600 font-medium tracking-wider">
                     ORGANIC FARMS
