@@ -82,33 +82,7 @@ const FarmCreationsSection = () => {
         </div>
       </div>
 
-      {/* Bottom Decorative Section with Buffalo */}
-      <div className="relative bg-gradient-to-r from-green-400 to-green-500 h-32 overflow-hidden">
-        {/* Buffalo Silhouettes */}
-        <div className="absolute left-8 bottom-4">
-          <svg width="120" height="60" viewBox="0 0 120 60" className="text-gray-700 opacity-70">
-            <ellipse cx="20" cy="50" rx="15" ry="8" fill="currentColor"/>
-            <path d="M5 45 Q10 35 20 35 Q35 35 45 40 Q50 42 55 45 Q60 48 65 50 Q60 55 50 55 Q35 55 20 52 Q10 50 5 45Z" fill="currentColor"/>
-            <circle cx="15" cy="42" r="2" fill="currentColor"/>
-            <path d="M12 38 Q14 36 16 38" stroke="currentColor" strokeWidth="2" fill="none"/>
-            <path d="M18 38 Q20 36 22 38" stroke="currentColor" strokeWidth="2" fill="none"/>
-          </svg>
-        </div>
-
-        <div className="absolute right-8 bottom-4">
-          <svg width="100" height="50" viewBox="0 0 100 50" className="text-gray-700 opacity-70">
-            <ellipse cx="15" cy="42" rx="12" ry="6" fill="currentColor"/>
-            <path d="M3 38 Q8 30 15 30 Q28 30 38 34 Q42 36 46 38 Q50 40 54 42 Q50 46 42 46 Q28 46 15 44 Q8 42 3 38Z" fill="currentColor"/>
-            <circle cx="12" cy="35" r="1.5" fill="currentColor"/>
-            <path d="M9 32 Q11 30 13 32" stroke="currentColor" strokeWidth="1.5" fill="none"/>
-            <path d="M15 32 Q17 30 19 32" stroke="currentColor" strokeWidth="1.5" fill="none"/>
-          </svg>
-        </div>
-
-        {/* Grass/Ground texture */}
-        <div className="absolute bottom-0 left-0 right-0 h-4 bg-green-600 opacity-30"></div>
-    
-      </div>
+  
     </div>
   );
 };
